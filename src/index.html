@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>"Тест"</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="quiz-container">
+		<h1>Тест</h1>
+		<div class='question' id='question'>
+			Вопрос 1: Какой ЯП вы изучайте?
+		</div>
+		<div class='options' id='options'>
+			<button onclick="nextQuestion('JS')">JavaScript</button>
+			<button onclick="nextQuestion('Python')">Python</button>
+			<button onclick="nextQuestion('Java')">Java</button>
+			<button onclick="nextQuestion('C++')">C++</button>
+		</div>
+		<div class='result' id='result'>
+		</div>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
